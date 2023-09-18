@@ -178,8 +178,22 @@ p{
     background-color: rgb(163, 163, 163);
 }
 
-.section{
-    display: flex;
-    width: 600px;
-    height: 400px;
+.text{
+    background-color: #171717;
+}
+
+.text-center{
+    position: relative;
+    display: inline-block;
+}
+
+i{
+    font-size: 25px;
+}
+
+
+.card-text{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

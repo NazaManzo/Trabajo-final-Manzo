@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Tienda Gamer</title>
 </head>
@@ -62,30 +63,32 @@
 
     </section>
 
-    <section>
-        <img src="imagenes/descarga (1).jfif" alt="">
-        <img src="imagenes/descarga.jfif" alt="">
-        <img src="imagenes/images (2).jfif" alt="">
-        <img src="imagenes/images (1).jfif" alt="">
-        <img src="imagenes/descarga (2).jfif" alt="">
-    </section>
-
-    <section class="content about">
-        
-        <h2 class="title">envios</h2>
-        <p>Hacemos envios en CABA y Buenos Aires</p>
-
-        <section class="content price">
-
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/i9-12900KS.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/1933200-amd-ryzen-3d-vcache-7-9-right-1260x709.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/shop-2080-ti-300@2x.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>   
+      
             <article class="contain">
                 <h2 class="title">precios</h2>
-                <p>Placas de video desde $150.000 y precesadores desde $60.000</p>
-
+                <p class="text">Placas de video desde $150.000 y precesadores desde $60.000</p>
             </article>
-
-        </section>
-
-    </section>
 
     <section class="content contact">
         <h2 class="title">Contacto</h2>
@@ -96,5 +99,16 @@
         </figure>
 
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+    <footer>
+        <h3 class="text-center">Redes sociales</h3>
+        
+        <i class="bi bi-amazon"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-twitter"></i>
+    </footer>
+    
 </body>
 </html>
