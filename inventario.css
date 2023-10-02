@@ -1,0 +1,33 @@
+.conteiner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.caja img{
+    width: 220px;
+    height: 280px;
+
+}
+
+.caja{
+    margin: 15px;
+
+}
+
+.caja p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
