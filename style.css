@@ -25,6 +25,7 @@ body{
 .navbar{
     display: flex;
     margin-right: 10px;
+    margin: 5px;
 
 }
 

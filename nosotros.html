@@ -14,19 +14,28 @@
             background-repeat: no-repeat;
             
         }
+
+        @media screen and (max-width:800px){
+            body{
+                background-color: aqua;
+            }
+        } 
+
+        @media screen and (min-width:1920px){
+            body{
+                background-color: blanchedalmond;
+            }
+        }
         
     </style>
 
 </head>
 <body>
-
-
     <h1>Nosotros</h1>
     <a class="enlace" href="http://127.0.0.1:5500/index.html#">Inicio  </a>
 
     <div class="card text-bg-dark">
-        <img src="imagenes/images.jfif" class="card-img" alt="...">
-        <div class="card-img-overlay">
+        
         
         <p class="card-text">En la ciudad de Buenos Aires, donde la tecnología era parte esencial de la vida cotidiana, un joven emprendedor llamado Alejandro soñaba con hacer su marca en el emocionante mundo de los videojuegos y la tecnología. Apasionado por los juegos desde su infancia, Alejandro decidió convertir su pasión en un negocio y fundar su propia tienda de tecnología y entretenimiento, a la que llamó "Tienda Gamer".
 
@@ -34,5 +43,33 @@
         
         </div>
     </div>
+    
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/nosotros2.jpg" class="d-block w-100" alt="300px">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/nosotros 2.jpg" class="d-block w-100" alt="300px">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/nosotros 3.jpg" class="d-block w-100" alt="300px">
+         </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
